@@ -1,0 +1,14 @@
+{
+  "timeZone": "en-US",
+  "rotateProxy": false,
+  "skipInvalidProxy": false,
+  "proxyRotationInterval": 2,
+  "delayEachAccount": [1, 81],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 10,
+  "doTasks": true,
+  "isUpgrade": true,
+  "playGames": true,
+  "referralCode": "Z1I6Z87IRBA8",
+  "amountOfUpgrades": 10
+}
