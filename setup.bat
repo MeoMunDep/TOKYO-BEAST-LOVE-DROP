@@ -64,10 +64,13 @@ if not exist configs.json (
     echo   "howManyAccountsRunInOneTime": 100,>> configs.json
     echo   "doTasks": true,>> configs.json
     echo   "playGames": true,>> configs.json
-    echo   "referralCode": "">> configs.json
+    echo   "referralCode": "Z1I6Z87IRBA8",>> configs.json
+    echo   "amountOfUpgrades": 10,>> configs.json
+    echo   "isUpgrade": true>> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
+
 
 if not exist datas.txt (
     type nul > datas.txt
