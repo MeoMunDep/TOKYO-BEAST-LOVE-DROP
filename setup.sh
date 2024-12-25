@@ -39,10 +39,14 @@ create_default_configs() {
     "howManyAccountsRunInOneTime": 10,
     "doTasks": true,
     "playGames": true,
-    "referralCode": ""
+    "referralCode": "Z1I6Z87IRBA8",
+    "amountOfUpgrades": 10,
+    "isUpgrade": true
 }
 EOL
 }
+
+
 
 check_configs() {
     if ! node -e "const cfg=require('./configs.json');if(typeof cfg.howManyAccountsRunInOneTime !== 'number' || cfg.howManyAccountsRunInOneTime < 1) throw new Error('Invalid config');" 2>/dev/null; then
@@ -55,7 +59,7 @@ check_configs() {
 while true; do
     clear
     echo "================================="
-    echo "    name BOT SETUP AND RUN SCRIPT"
+    echo "TOKYO BEAST LOVE DROP BOT SETUP AND RUN SCRIPT"
     echo "================================="
     echo
     echo "Current directory: $(pwd)"
