@@ -38,7 +38,6 @@ create_default_configs() {
     "timeToRestartAllAccounts": 300,
     "howManyAccountsRunInOneTime": 10,
     "doTasks": true,
-    "playGames": true,
     "referralCode": "Z1I6Z87IRBA8",
     "amountOfUpgrades": 10,
     "isUpgrade": true
@@ -58,9 +57,9 @@ check_configs() {
 
 while true; do
     clear
-    echo "================================="
-    echo "TOKYO BEAST LOVE DROP BOT SETUP AND RUN SCRIPT"
-    echo "================================="
+    echo "==================================================================""
+    echo "TOKYO BEAST LOVE DROP BOT SETUP AND RUN SCRIPT by @MeoMunDep"
+    echo "==================================================================""
     echo
     echo "Current directory: $(pwd)"
     echo "Node modules directory: $MODULES_DIR/node_modules"
@@ -119,7 +118,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            node meomundep
             read -p "Press Enter to continue..."
             ;;
         4)
