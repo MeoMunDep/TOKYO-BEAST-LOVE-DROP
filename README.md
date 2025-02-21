@@ -96,15 +96,15 @@ _Note: Each row for each account_
 
 ### 3. `wallets.txt` - 💼 Wallet Addresses
 
-Add your wallet addresses in the following format:
+- EVM address
+- Add your wallet addresses in the following format:
 
 ```txt
-abc...xyz
-abc...xyz
-abc...xyz
+0x...
+0x...
+0x...
 ```
 
-_Note: Wallet updates are currently not supported._
 
 ### 4. `proxies.txt` - 🌐 Proxy List (Optional)
 
