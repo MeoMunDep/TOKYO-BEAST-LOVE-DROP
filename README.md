@@ -83,8 +83,8 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `amountOfUpgrades`: Number of upgrades you want.
 
 ### 2. `datas.txt` - 🗂️ User Data
+- [Get it from here](https://t.me/KeoAirDropFreeNee/1586)
 
-Download the `datas.txt` file from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
 
 ```txt
 query_id.../user...
